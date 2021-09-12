@@ -1,9 +1,7 @@
 # Fully Exploring Corpus Knowledge for Improved Entity Relation Extraction (ECKRE)
 ## Introduction
-<u>**M**</u>ultivariate <u>**T**</u>ime <u>**S**</u>eries (<u>**MTS**</u>) have been a challenging data type for machine learning algorithms due to their inherent complexity, e.g., highly variable length, dynamic nature, a large number of variables, sparse labels, etc. Despite the fact that some unsupervised representation methods for MTS have been proposed, it is still a major challenge to produce high quality representations for MTS, especially those that are very long and/or involve a large number of variables, and to make the learned representations more discriminative for clustering and other downstream applications. 
 
-
-Entity <u>**R**</u>elation <u>**M**</u>xtraction (<u>**RE**</u>) aims to extract the semantic relation between two entities in a given sentence, which is a basic and important task in information extraction and natural language processing applications, such as knowledge base population
+Entity <u>**R**</u>elation <u>**E**</u>xtraction (**RE**) aims to extract the semantic relation between two entities in a given sentence, which is a basic and important task in information extraction and natural language processing. The majority of existing RE methods mainly rely on external knowledge bases or the knowledge of the given sentence to improve their RE performance, but fail to fully explore the various rich knowledge contained in training and/or testing corpuses to improve or revise their RE results. To bridge the gap, for the first time, this paper introduces the concept of a dynamic <u>**E**</u>ntity <u>**R**</u>elation <u>**G**</u>raph (**ERG**), which is first constructed using the training corpus, and then continually expanded as the testing progresses. The ERG is used to globally capture the semantic correlations between entities from all the sentences in the corpus for improved and corrected RE results. After that, a large number of “other”/“no relation” relations retained in the training corpus are selected as negative samples to train to increase the classification performance. Finally, equipped with the light pre-trained language model ALBERT, a proposed <u>**S**</u>emantic <u>**S**</u>imilarity-based <u>**G**</u>raph <u>**C**</u>onvolutional <u>**N**</u>etwork (**SS-GCN**), and joint optimization loss function with the positive-negative samples learning, this paper presents a new RE method, namely **ECKRE** (<u>**E**</u>xploring <u>**C**</u>orpus <u>**K**</u>nowledge for Improved <u>**R**</u>elation <u>**E**</u>xtraction). Extensive experiments on SemEval-2010 Task 8 and TACRED benchmark datasets show that our ECKRE achieves better performance than that of the state-of-the-art methods. 
 
 In this study, we present a new more effiective RE method, namely <u>**ECKRE**</u>. Our contributions can be summarized as follows:
 
@@ -68,7 +66,7 @@ The basic information of data set as follows.
 
 ## Files
 
-### EUDTR folder
+### ECKRE folder
 
 - `main.py` file: the entry file of the whole algorithm program
 - `trainer.py` file: training process of the whole network
@@ -131,4 +129,6 @@ We compare our algorithm with 9 state-of-the-art RE methods. The details of thes
   paper: [https://aclanthology.org/2021.findings-acl.221.pdf)
 
   code:[https://github.com/cuhksz-nlp/RE-TaMM)
+
+Note that: the implementation source codes of the baselines EPGNN and LST-AGCN are not provided in their paper, and we only use their experimental results published in their papers respectively.
     

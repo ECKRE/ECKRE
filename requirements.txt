@@ -1,0 +1,7 @@
+sklearn==0.0
+bert-pytorch==0.0.1a4
+torch==1.2.0
+transformers==2.3.0
+tokenizers==0.0.11
+tqdm==4.40.0
+wheel==0.33.6
