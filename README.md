@@ -63,7 +63,8 @@ The basic information of data set as follows.
 | - | :- | -: | -: |
 |SemEval-2010 task 8| 8000 | 2717 | 19 |
 |TACRED| 90755 | 15509 | 42 |
-## pretrained model
+
+## Pretrained Model
 The pretrained model used in our ECKRE can be download through [https://storage.googleapis.com/albert_models/albert_xxlarge_v1.tar.gz]
 
 ## Files
