@@ -63,6 +63,8 @@ The basic information of data set as follows.
 | - | :- | -: | -: |
 |SemEval-2010 task 8| 8000 | 2717 | 19 |
 |TACRED| 90755 | 15509 | 42 |
+## pretrained model
+The pretrained model used in our ECKRE can be download through [https://storage.googleapis.com/albert_models/albert_xxlarge_v1.tar.gz]
 
 ## Files
 
@@ -130,5 +132,5 @@ We compare our algorithm with 9 state-of-the-art RE methods. The details of thes
 
   code:[https://github.com/cuhksz-nlp/RE-TaMM)
 
-Note that: the implementation source codes of the baselines EPGNN and LST-AGCN are not provided in their paper, and we only use their experimental results published in their papers respectively.
+Note that: the implementation source codes of the baselines EPGNN and LST-AGCN are not provided in their paper, and we only use their experimental results published in their papers respectively. 
     
