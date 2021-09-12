@@ -55,7 +55,7 @@ python -u main.py \
 
 ## Datasets
 
-We test our method and all baselines on two RE baseline datasets SemEval-2010 task 8 and TACRED, shown in Table 1. For more details on the dataset, please refer to paper [SemEval-2010 Task 8](https://arxiv.org/abs/1911.10422) and [TACRED](https://aclanthology.org/D17-1004.pdf). You can download the whole multivariate time series data set through [SemEval-2010 task 8](https://www.kaggle.com/drtoshi/semeval2010-task-8-dataset) and [TACRED](https://nlp.stanford.edu/projects/tacred/).
+We test our method and all baselines on two RE baseline datasets SemEval-2010 task 8 and TACRED, shown in Table 1. For more details on the dataset, please refer to paper [SemEval-2010 Task 8](https://arxiv.org/abs/1911.10422) and [TACRED](https://aclanthology.org/D17-1004.pdf). You can download the whole datasets through [SemEval-2010 task 8](https://www.kaggle.com/drtoshi/semeval2010-task-8-dataset) and [TACRED](https://nlp.stanford.edu/projects/tacred/).
 
 The basic information of data set as follows.
 
